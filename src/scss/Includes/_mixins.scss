@@ -1,0 +1,24 @@
+/* Media Queries */ 
+@mixin small-devices {
+    @media (min-width: $small-devices-width) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media (min-width: $tablet-width) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media (min-width: $desktop-width) {
+      @content;
+    }
+  }
+  
+  @mixin xl-screen {
+    @media (min-width: $xl-screen-width) {
+      @content;
+    }
+  }
