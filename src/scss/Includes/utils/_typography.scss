@@ -1,7 +1,7 @@
 .bat-heading {
   margin: 0;
   text-align: center;
-  padding: $padding-m 0;
+  padding: $padding-l 0;
   &--xl {
     font-family: $font-secondary;
     font-size: $font-size-xl;
@@ -12,6 +12,6 @@
     font-family: $font-secondary;
     font-size: $font-size-l;
     color: $apricot;
-    font-weight: $font-medium;
+    font-weight: $font-regular;
   }
 }

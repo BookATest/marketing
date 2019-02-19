@@ -1,0 +1,11 @@
+.bat-cta-block{
+  background-color: $wild-sand;
+  &__card{
+    background: $wild-sand;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.16);
+    border-radius: 2px;
+    min-height: 600px;
+    position: relative;
+    top: -150px;
+  }
+}
