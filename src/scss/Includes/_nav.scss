@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: Dosis-SemiBold;
     font-size: $font-size-m;
+    padding: 0 $padding-m;
     &:after {
       content: "";
       display: block;
