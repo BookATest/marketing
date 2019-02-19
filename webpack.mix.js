@@ -1,5 +1,7 @@
 let mix = require('laravel-mix');
 
+require('mix-html-builder');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -14,7 +16,8 @@ let mix = require('laravel-mix');
 mix.js('src/app.js', 'dist')
     .sass('src/scss/style.scss', 'dist/style.css')
     .setPublicPath('dist')
-    .copy('src/index.html', 'dist');
+    .copy('src/index.html', 'dist')
+    .buildHtml();
 
 // Full API
 // mix.js(src, output);

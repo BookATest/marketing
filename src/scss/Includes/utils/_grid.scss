@@ -1,12 +1,12 @@
-.container {
-	max-width: $xl-screen-width;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+.bat-container {
+  max-width: $xl-screen-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.row {
+.bat-row {
   margin-left: -15px;
   margin-right: -15px;
   @include tablet {
@@ -15,7 +15,7 @@
   }
 }
 
-.col {
+.bat-col {
   padding-left: 15px;
   padding-right: 15px;
   flex-basis: 0;
