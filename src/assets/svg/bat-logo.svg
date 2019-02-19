@@ -1,0 +1,30 @@
+
+<svg width="753px" height="242px" viewBox="0 0 753 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-56.6%" y="-327.5%" width="213.2%" height="754.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="100" dy="-8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="37" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Marketing-site" transform="translate(-431.000000, -300.000000)">
+            <g id="Logo-Copy-4" filter="url(#filter-1)" transform="translate(431.000000, 376.000000)">
+                <g id="Logo">
+                    <rect id="Rectangle" fill="#5593F0" x="0" y="5.47368421" width="430.591045" height="95.5263158" rx="8"></rect>
+                    <path d="M487.5,96.6578947 L570.5,96.6578947" id="Line" stroke="#5593F0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <text id="BOOK-A-TEST" font-family="Dosis-SemiBold, Dosis" font-size="76" font-weight="500" fill="#F6F6F6">
+                        <tspan x="13.9462687" y="80">BOOK A TEST  </tspan>
+                    </text>
+                    <text id=".-HIV" font-family="Dosis-SemiBold, Dosis" font-size="76" font-weight="500" fill="#F6F6F6">
+                        <tspan x="452.280597" y="78.2631579">. HIV</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
