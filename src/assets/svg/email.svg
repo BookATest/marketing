@@ -1,0 +1,12 @@
+
+<svg width="120px" height="95px" viewBox="0 0 120 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Marketing-site" transform="translate(-839.000000, -1763.000000)" stroke="#2F2F2F" stroke-width="6">
+            <g id="Group-4" transform="translate(899.000000, 1810.500000) rotate(-10.000000) translate(-899.000000, -1810.500000) translate(844.000000, 1772.000000)">
+                <path d="M5,3 C3.8954305,3 3,3.8954305 3,5 L3,72 C3,73.1045695 3.8954305,74 5,74 L105,74 C106.104569,74 107,73.1045695 107,72 L107,5 C107,3.8954305 106.104569,3 105,3 L5,3 Z" id="Rectangle-2"></path>
+                <path d="M3.37878788,4.39473684 L52.6212121,48.6052632" id="Line-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M103.625,5.39285714 L53.375,48.6071429" id="Line-3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

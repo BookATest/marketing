@@ -1,14 +1,37 @@
 .bat-content-block {
+  padding: $padding-xl 0 16rem 0;
   &--grandis {
     background-color: $grandis;
   }
 }
+
 .bat-section-break {
   border: 1px solid transparent;
+  &--l {
+    margin: 3rem 0;
+  }
   &--m {
     margin: 2rem 0;
   }
   &--s {
     margin: 1rem 0;
+  }
+}
+
+.bat-button {
+  font-family: $font-secondary;
+  font-weight: $font-semi-bold;
+  font-size: $font-size-m;
+  &--blue{
+    background: $blue-violet;
+    border-radius: 8px;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    padding: $padding-m $padding-xl;
+    margin: 0 auto;
+  }
+  &--mail{
+    color: $blue-violet;
   }
 }
