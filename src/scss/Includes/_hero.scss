@@ -3,9 +3,13 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  &__logo-wrapper {
+  &__wrapper{
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    position: relative;
+  }
+  &__logo-wrapper {
+    margin: auto;
   }
   &__logo-img {
     width: 100%;
