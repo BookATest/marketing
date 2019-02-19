@@ -4,6 +4,7 @@
     background-color: $grandis;
   }
 }
+
 .bat-section-break {
   border: 1px solid transparent;
   &--l {
@@ -14,5 +15,23 @@
   }
   &--s {
     margin: 1rem 0;
+  }
+}
+
+.bat-button {
+  font-family: $font-secondary;
+  font-weight: $font-semi-bold;
+  font-size: $font-size-m;
+  &--blue{
+    background: $blue-violet;
+    border-radius: 8px;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    padding: $padding-m $padding-xl;
+    margin: 0 auto;
+  }
+  &--mail{
+    color: $blue-violet;
   }
 }
