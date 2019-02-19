@@ -14,4 +14,8 @@
     align-items: flex-start;
     padding: $padding-xl;
   }
+  &__line{
+    margin: $margin-xl 0;
+    border: .5px solid $alto;
+  }
 }
