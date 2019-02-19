@@ -1,10 +1,25 @@
 .bat-nav {
   display: flex;
   justify-content: flex-end;
-  &__link{
+  &__link {
     color: $wild-sand;
     text-decoration: none;
     font-family: Dosis-SemiBold;
     font-size: $font-size-m;
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: $cornflower-blue;
+      transition: width 0.3s;
+    }
+    &:hover {
+      color: $cornflower-blue;
+      transition: color 0.6s;
+      &:after {
+        width: 100%;
+      }
+    }
   }
 }
