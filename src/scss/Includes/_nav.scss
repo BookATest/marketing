@@ -1,0 +1,8 @@
+.bat-nav {
+  display: flex;
+  justify-content: flex-end;
+  &__link{
+    color: $wild-sand;
+    text-decoration: none;
+  }
+}
