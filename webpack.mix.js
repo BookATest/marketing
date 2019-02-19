@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('src/app.js', 'dist')
-    .sass('src/scss/style.scss', 'dist')
+    .sass('src/scss/style.scss', 'dist/style.css')
     .setPublicPath('dist')
     .copy('src/index.html', 'dist');
 
