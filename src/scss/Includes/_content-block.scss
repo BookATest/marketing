@@ -3,3 +3,12 @@
     background-color: $grandis;
   }
 }
+.bat-section-break {
+  border: 1px solid transparent;
+  &--m {
+    margin: 2rem 0;
+  }
+  &--s {
+    margin: 1rem 0;
+  }
+}
