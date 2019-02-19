@@ -4,8 +4,14 @@
     background: $wild-sand;
     box-shadow: 0 2px 13px 0 rgba(0,0,0,0.16);
     border-radius: 2px;
-    min-height: 600px;
     position: relative;
     top: -150px;
+  }
+  &__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: $padding-xl;
   }
 }
