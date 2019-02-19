@@ -17,5 +17,9 @@
   &__line{
     margin: $margin-xl 0;
     border: .5px solid $alto;
+    display: none;
+    @include tablet{
+      display: block;
+    }
   }
 }
