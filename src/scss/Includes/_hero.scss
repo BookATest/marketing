@@ -2,7 +2,9 @@
   background-image: url('../assets/hero-bg.jpg');
   background-size: cover;
   background-position: center;
-  width: 100wh;
   height: 100vh;
-  display: flex;
+  &__logo-wrapper{
+    display: flex;
+    justify-content: center;
+  }
 }

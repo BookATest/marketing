@@ -1,6 +1,7 @@
 .bat-nav {
   display: flex;
   justify-content: flex-end;
+  padding-top: $padding-m;
   &__link {
     color: $wild-sand;
     text-decoration: none;
