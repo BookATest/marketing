@@ -1,5 +1,22 @@
-@import url("https://fonts.googleapis.com/css?family=Dosis|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Dosis:500,600|Open+Sans:400,600,700");
 
+/* Font size */
+$font-size-xl: 4.375rem;
+$font-size-l: 3.75rem;
+$font-size-m: 2rem;
+$font-size-s: 1.5625rem;
+
+/* Fonts */
+$font-primary: "Open Sans", sans-serif;
+$font-secondary: "Dosis", sans-serif;
+
+/* Font weights */
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+/* Headings */
 .bat-heading {
   margin: 0;
   padding: $padding-l 0;
@@ -23,6 +40,7 @@
   }
 }
 
+/* Paragraphs */
 .bat-content {
   font-family: $font-primary;
   font-size: $font-size-s;
