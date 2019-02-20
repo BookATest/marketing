@@ -1,0 +1,11 @@
+.bat-features-block {
+  &__img {
+    width: 100%;
+    &--metro {
+      position: absolute;
+    }
+  }
+  &__wrapper-metro {
+    position: relative;
+  }
+}
