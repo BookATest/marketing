@@ -2,7 +2,9 @@
   &__img {
     width: 100%;
     &--metro {
-      position: absolute;
+      @include desktop {
+        position: absolute;
+      }
     }
   }
   &__wrapper-metro {

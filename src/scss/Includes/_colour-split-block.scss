@@ -1,5 +1,6 @@
 .bat-colour-split-block {
   color: $white;
+  padding: $padding-m $padding-m $padding-xl $padding-m;
   background: linear-gradient(
     to bottom,
     $cornflower-blue 0%,
