@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  &__wrapper{
+  &__wrapper {
     height: 100vh;
     display: flex;
     position: relative;
@@ -13,5 +13,19 @@
   }
   &__logo-img {
     width: 100%;
+  }
+  &__scroll-wrapper {
+    text-align: center;
+    margin-top: auto;
+    bottom: 5px;
+    width: 100%;
+    position: absolute;
+  }
+  &__scroll-text {
+    font-family: $font-secondary;
+    font-size: $font-size-m;
+    font-weight: $font-semi-bold;
+    color: $white;
+    margin: 0;
   }
 }
