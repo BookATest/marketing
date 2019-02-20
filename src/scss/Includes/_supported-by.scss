@@ -6,4 +6,12 @@
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.16);
     border-radius: 2px;
   }
+  &__heading {
+    font-family: $font-secondary;
+    font-size: $font-size-l;
+    font-weight: $font-semi-bold;
+    padding: $padding-xl;
+    color: $mine-shaft;
+    margin: 0;
+  }
 }
