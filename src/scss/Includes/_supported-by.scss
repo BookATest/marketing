@@ -5,13 +5,17 @@
     background: $wild-sand;
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.16);
     border-radius: 2px;
+    padding: $padding-xl;
   }
   &__heading {
     font-family: $font-secondary;
     font-size: $font-size-l;
     font-weight: $font-semi-bold;
-    padding: $padding-xl;
     color: $mine-shaft;
     margin: 0;
+    padding: $padding-xl;
+  }
+  &__content {
+    padding: $padding-xl;
   }
 }
