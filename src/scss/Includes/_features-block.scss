@@ -1,11 +1,13 @@
 .bat-features-block {
   &__img {
     width: 100%;
-    // &--metro {
-    //   position: absolute;
-    // }
+    &--metro {
+      position: absolute;
+    }
   }
   &__wrapper-metro {
     position: relative;
+    overflow: visible;
+    min-height: 400px;
   }
 }
