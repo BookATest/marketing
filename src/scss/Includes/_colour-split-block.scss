@@ -1,0 +1,10 @@
+.bat-colour-split-block {
+  height: 100px;
+  background: linear-gradient(
+    to right,
+    $cornflower-blue 0%,
+    $cornflower-blue 50%,
+    $blue-violet 50%,
+    $blue-violet 100%
+  );
+}
