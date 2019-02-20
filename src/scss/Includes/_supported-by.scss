@@ -1,0 +1,9 @@
+.bat-supported-by {
+  background-color: $grandis;
+  padding-top: $padding-xl;
+  &__wrapper {
+    background: $wild-sand;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 2px;
+  }
+}
