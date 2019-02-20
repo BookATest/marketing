@@ -23,7 +23,7 @@
   font-family: $font-secondary;
   font-weight: $font-semi-bold;
   font-size: $font-size-m;
-  &--blue{
+  &--blue {
     background: $blue-violet;
     border-radius: 8px;
     color: $white;
@@ -32,7 +32,16 @@
     padding: $padding-m $padding-xl;
     margin: 0 auto;
   }
-  &--mail{
+  &--mail {
     color: $blue-violet;
+  }
+  &--outline {
+    border: 2px solid $white;
+    border-radius: 8px;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    padding: $padding-m $padding-xl;
+    margin: 0 auto;
   }
 }
