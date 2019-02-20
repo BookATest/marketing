@@ -8,5 +8,6 @@
   align-items: center;
   &__wrapper {
     padding-left: $padding-xl;
+    max-width: 75vw;
   }
 }
