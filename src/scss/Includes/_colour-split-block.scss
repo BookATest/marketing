@@ -7,14 +7,13 @@
     $blue-violet 50%,
     $blue-violet 100%
   );
-
+  &__button-col {
+    text-align: center;
+  }
   &__heading {
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
     font-size: 3.25rem;
-    &:last-of-type {
-      text-align: center;
-    }
   }
   &__content {
     font-family: $font-primary;
