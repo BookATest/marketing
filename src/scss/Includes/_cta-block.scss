@@ -1,24 +1,25 @@
-.bat-cta-block{
+.bat-cta-block {
   background-color: $wild-sand;
-  &__card{
+  &__card {
     background: $wild-sand;
-    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.16);
     border-radius: 2px;
     position: relative;
     top: -150px;
+    margin-bottom: -120px;
   }
-  &__item{
+  &__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     padding: $padding-xl;
   }
-  &__line{
+  &__line {
     margin: $margin-xl 0;
-    border: .5px solid $alto;
+    border: 0.5px solid $alto;
     display: none;
-    @include tablet{
+    @include tablet {
       display: block;
     }
   }

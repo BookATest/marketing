@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  &__wrapper{
+  &__wrapper {
     height: 100vh;
     display: flex;
     position: relative;
@@ -13,5 +13,30 @@
   }
   &__logo-img {
     width: 100%;
+  }
+  &__scroll-wrapper {
+    text-align: center;
+    margin-top: auto;
+    bottom: 8px;
+    width: 100%;
+    position: absolute;
+  }
+  &__scroll-inner {
+    display: inline-block;
+    cursor: pointer;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: transform, -webkit-transform;
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+  &__scroll-text {
+    font-family: $font-secondary;
+    font-size: $font-size-m;
+    font-weight: $font-semi-bold;
+    color: $white;
+    margin: 0;
+    cursor: pointer;
   }
 }
