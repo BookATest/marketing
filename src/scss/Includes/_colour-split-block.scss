@@ -1,12 +1,22 @@
 .bat-colour-split-block {
   color: $white;
   background: linear-gradient(
-    to right,
+    to bottom,
     $cornflower-blue 0%,
     $cornflower-blue 50%,
     $blue-violet 50%,
     $blue-violet 100%
   );
+  @include tablet {
+    background: linear-gradient(
+      to right,
+      $cornflower-blue 0%,
+      $cornflower-blue 50%,
+      $blue-violet 50%,
+      $blue-violet 100%
+    );
+  }
+
   &__button-col {
     text-align: center;
   }
@@ -14,10 +24,13 @@
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
     font-size: 3.25rem;
+    margin: 0;
+    padding: $padding-l 0;
   }
   &__content {
     font-family: $font-primary;
     font-weight: $font-regular;
     font-size: $font-size-m;
+    padding: $padding-l 0;
   }
 }
