@@ -4,6 +4,7 @@
   background-position: center;
   height: 100vh;
   display: flex;
+  display: -ms-flexbox;
   justify-content: flex-start;
   align-items: center;
   &__wrapper {

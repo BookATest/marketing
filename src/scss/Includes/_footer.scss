@@ -2,6 +2,7 @@
   background-color: $grandis;
   &__text-wrapper {
     display: flex;
+    display: -ms-flexbox;
     justify-content: space-around;
     padding-bottom: $padding-xl;
   }

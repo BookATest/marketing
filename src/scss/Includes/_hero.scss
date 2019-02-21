@@ -6,6 +6,7 @@
   &__wrapper {
     height: 100vh;
     display: flex;
+    display: -ms-flexbox;
     position: relative;
   }
   &__logo-wrapper {
