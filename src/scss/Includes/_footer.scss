@@ -22,6 +22,7 @@
   &__text-link {
     text-decoration: none;
     color: $mine-shaft;
+    display: inline-block;
     &:after {
       @include tablet {
         content: "";
