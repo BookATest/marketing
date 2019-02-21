@@ -29,6 +29,17 @@
     bottom: 8px;
     width: 100%;
     position: absolute;
+    animation: Float 2s ease-in-out infinite;
+    @keyframes Float {
+      0%,
+      to {
+        bottom: 0;
+      }
+
+      50% {
+        bottom: 0.5rem;
+      }
+    }
   }
   &__scroll-inner {
     display: inline-block;
