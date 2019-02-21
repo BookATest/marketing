@@ -30,10 +30,21 @@
     text-align: center;
     text-decoration: none;
     padding: $padding-m $padding-xl;
+    border: 2px solid $blue-violet;
     margin: 0 auto;
+    transition: background 0.6s;
+    transition: color 0.6s;
+    &:hover {
+      background: transparent;
+      color: $blue-violet;
+    }
   }
   &--mail {
     color: $blue-violet;
+    transition: color 0.6s;
+    &:hover {
+      color: $cornflower-blue;
+    }
   }
   &--outline {
     border: 2px solid $white;
@@ -43,5 +54,11 @@
     text-decoration: none;
     padding: $padding-m $padding-xl;
     margin: 0 auto;
+    transition: border 0.6s;
+    transition: color 0.4s;
+    &:hover {
+      border: 2px solid $cornflower-blue;
+      color: $cornflower-blue;
+    }
   }
 }
