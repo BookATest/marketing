@@ -1,15 +1,6 @@
 .bat-footer {
   background-color: $grandis;
-  &__text-wrapper {
-    display: flex;
-    display: -ms-flexbox;
-    justify-content: space-around;
-    padding-bottom: $padding-xl;
-    flex-wrap: wrap;
-    @include tablet {
-      flex-wrap: nowrap;
-    }
-  }
+  text-align: center;
   &__text {
     margin: 0;
     font-family: $font-secondary;
