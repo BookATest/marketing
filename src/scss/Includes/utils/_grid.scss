@@ -11,6 +11,8 @@
   margin-right: -15px;
   @include tablet {
     display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
@@ -18,11 +20,13 @@
 .bat-col {
   padding-left: 15px;
   padding-right: 15px;
-  flex-basis: 0;
-  flex-grow: 1;
+  flex: 1;
+  -ms-flex: 1;
+  //-ms-flex-preferred-size: auto;
   max-width: 100%;
   position: relative;
   &--2 {
-    flex-grow: 2;
+    flex: 2;
+    -ms-flex: 2;
   }
 }

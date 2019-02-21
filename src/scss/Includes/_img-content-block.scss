@@ -6,7 +6,20 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  &__wrapper {
-    padding-left: $padding-xl;
+  &__img {
+    border-radius: 50%;
+  }
+  &__img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: $padding-l;
+    position: relative;
+    @include tablet {
+      justify-content: flex-end;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
   }
 }

@@ -1,7 +1,26 @@
 .bat-icon-block {
-  padding-top: 7rem;
+  padding: $padding-m 0;
+  @include tablet {
+    padding: 7rem 0 4rem 0;
+  }
   background-color: $grandis;
   &__content-wrapper {
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    @include tablet {
+      display: block;
+      text-align: center;
+    }
+  }
+  &__heading {
+    margin-right: auto;
+    padding-left: $padding-xl;
+    @include tablet {
+      margin-right: 0;
+      padding-left: 0;
+    }
   }
 }

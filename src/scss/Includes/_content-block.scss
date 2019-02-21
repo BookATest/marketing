@@ -23,6 +23,7 @@
   font-family: $font-secondary;
   font-weight: $font-semi-bold;
   font-size: $font-size-m;
+  display: inline-block;
   &--blue {
     background: $blue-violet;
     border-radius: 8px;
@@ -31,9 +32,29 @@
     text-decoration: none;
     padding: $padding-m $padding-xl;
     margin: 0 auto;
+    transition: color 0.6s;
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: $white;
+      transition: width 0.3s;
+    }
+    &:hover {
+      background: $mine-shaft;
+      color: $white;
+      &:after {
+        width: 100%;
+      }
+    }
   }
   &--mail {
     color: $blue-violet;
+    transition: color 0.6s;
+    &:hover {
+      color: $mine-shaft;
+    }
   }
   &--outline {
     border: 2px solid $white;
@@ -43,5 +64,21 @@
     text-decoration: none;
     padding: $padding-m $padding-xl;
     margin: 0 auto;
+    transition: color 0.6s;
+    &:after {
+      content: "";
+      width: 0;
+      height: 2px;
+      background: $blue-violet;
+      display: block;
+      transition: width 0.3s;
+    }
+    &:hover {
+      background: $white;
+      color: $blue-violet;
+      &:after {
+        width: 100%;
+      }
+    }
   }
 }

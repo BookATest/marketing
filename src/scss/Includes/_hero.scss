@@ -6,6 +6,7 @@
   &__wrapper {
     height: 100vh;
     display: flex;
+    display: -ms-flexbox;
     position: relative;
   }
   &__logo-wrapper {
@@ -13,13 +14,34 @@
   }
   &__logo-img {
     width: 100%;
+    animation: grow 0.6s;
+    @keyframes grow {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
   }
   &__scroll-wrapper {
     text-align: center;
     margin-top: auto;
     bottom: 8px;
+    left: 0;
     width: 100%;
     position: absolute;
+    animation: Float 2s ease-in-out infinite;
+    @keyframes Float {
+      0%,
+      to {
+        bottom: 0;
+      }
+
+      50% {
+        bottom: 0.5rem;
+      }
+    }
   }
   &__scroll-inner {
     display: inline-block;
