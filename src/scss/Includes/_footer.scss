@@ -5,6 +5,10 @@
     display: -ms-flexbox;
     justify-content: space-around;
     padding-bottom: $padding-xl;
+    flex-wrap: wrap;
+    @include tablet {
+      flex-wrap: nowrap;
+    }
   }
   &__text {
     margin: 0;
@@ -12,23 +16,37 @@
     font-weight: $font-semi-bold;
     font-size: 1.5rem;
     color: $mine-shaft;
+    display: block;
+    padding-bottom: $padding-l;
+    width: 100%;
+    text-align: center;
+    @include tablet {
+      display: inline;
+      padding-bottom: 0;
+      width: auto;
+      text-align: unset;
+    }
   }
   &__text-link {
     text-decoration: none;
     color: $mine-shaft;
     &:after {
-      content: "";
-      display: block;
-      width: 0;
-      height: 2px;
-      background: $cornflower-blue;
-      transition: width 0.3s;
+      @include tablet {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: $cornflower-blue;
+        transition: width 0.3s;
+      }
     }
     &:hover {
       color: $cornflower-blue;
       transition: color 0.6s;
-      &:after {
-        width: 100%;
+      @include tablet {
+        &:after {
+          width: 100%;
+        }
       }
     }
   }
