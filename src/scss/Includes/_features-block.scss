@@ -1,5 +1,9 @@
 .bat-features-block {
   background-color: $wild-sand;
+  padding-bottom: $padding-xl;
+  @include tablet {
+    padding-bottom: 0;
+  }
   &__img {
     width: 100%;
     &--metro {
@@ -11,6 +15,20 @@
   &__wrapper-metro {
     position: relative;
     overflow: visible;
-    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include desktop {
+      display: block;
+      min-height: 450px;
+      transform: scale(1.2);
+    }
+  }
+  &__top-row {
+    display: flex;
+    flex-direction: column-reverse;
+    @include small-devices {
+      flex-direction: unset;
+    }
   }
 }
