@@ -1,15 +1,20 @@
 
 <svg width="586px" height="96px" viewBox="0 0 586 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<def>
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css?family=Dosis:600);
+    </style>
+</def>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-10" transform="translate(0.000000, -5.000000)">
             <g id="Logo-Copy-5">
                 <g id="Logo">
                     <rect id="Rectangle" fill="#5593F0" x="0" y="5.47368421" width="430.591045" height="95.5263158" rx="8"></rect>
                     <path d="M487.5,96.6578947 L570.5,96.6578947" id="Line" stroke="#5593F0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <text id="BOOK-A-TEST" font-family="Dosis, sans-serif" font-size="76" font-weight="600" fill="#F6F6F6">
+                    <text id="BOOK-A-TEST" font-family="'Dosis', sans-serif" font-size="76" font-weight="600" fill="#F6F6F6">
                         <tspan x="13.9462687" y="80">BOOK A TEST  </tspan>
                     </text>
-                    <text id=".-HIV" font-family="Dosis, sans-serif" font-size="76" font-weight="600" fill="#F6F6F6">
+                    <text id=".-HIV" font-family="'Dosis', sans-serif" font-size="76" font-weight="600" fill="#F6F6F6">
                         <tspan x="452.280597" y="78.2631579">. HIV</tspan>
                     </text>
                 </g>

@@ -7,6 +7,13 @@
   right: 0;
   top: 0;
   padding: $padding-m;
+  /* ie */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   &__link {
     color: $wild-sand;
     text-decoration: none;
