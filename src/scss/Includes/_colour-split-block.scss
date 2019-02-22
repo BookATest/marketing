@@ -1,6 +1,6 @@
 .bat-colour-split-block {
-  color: $white;
-  padding: $padding-m $padding-m $padding-xl $padding-m;
+  padding: $padding-m $padding-m $padding-8 $padding-m;
+
   background: linear-gradient(
     to bottom,
     $cornflower-blue 0%,
@@ -25,16 +25,14 @@
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
     font-size: 3.25rem;
+    padding: $padding-7 0 $padding-5 0;
+    color: $white;
     margin: 0;
-    padding: $padding-xl 0;
-    @include tablet {
-      padding: $padding-l 0;
-    }
   }
   &__content {
     font-family: $font-primary;
     font-weight: $font-regular;
     font-size: $font-size-m;
-    padding: $padding-l 0;
+    color: $white;
   }
 }
