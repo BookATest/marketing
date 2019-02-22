@@ -2,10 +2,13 @@
   background-image: url("../assets/img-content-block-bg.jpg");
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 100vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  @include desktop {
+    height: 60vh;
+  }
   &__img {
     border-radius: 50%;
   }
