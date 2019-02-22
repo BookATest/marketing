@@ -31,7 +31,8 @@
       background: $white;
       transition: width 0.3s;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       background: $mine-shaft;
       color: $white;
       &:after {
@@ -42,7 +43,8 @@
   &--mail {
     color: $blue-violet;
     transition: color 0.6s;
-    &:hover {
+    &:hover,
+    &:focus {
       color: $mine-shaft;
     }
   }
@@ -63,7 +65,8 @@
       display: block;
       transition: width 0.3s;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       background: $white;
       color: $blue-violet;
       &:after {

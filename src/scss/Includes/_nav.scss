@@ -42,7 +42,8 @@
       position: relative;
       z-index: 2;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       color: $cornflower-blue;
       transition: color 0.6s;
       &:after {
