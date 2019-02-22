@@ -11,6 +11,13 @@
   }
   &__logo-wrapper {
     margin: auto;
+    /* ie */
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
   &__logo-img {
     width: 100%;
