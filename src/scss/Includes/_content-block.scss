@@ -1,5 +1,5 @@
 .bat-content-block {
-  padding: $padding-xl 0 16rem 0;
+  padding: $padding-8 0 ($padding-8 + $padding-7) 0;
   text-align: center;
   &--grandis {
     background-color: $grandis;
