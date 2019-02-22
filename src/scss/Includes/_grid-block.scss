@@ -1,7 +1,7 @@
 .bat-icon-block {
   padding: $padding-m 0;
   @include tablet {
-    padding: 7rem 0 4rem 0;
+    padding: $padding-7 0 $padding-6 0;
   }
   background-color: $grandis;
   &__content-wrapper {
