@@ -2,6 +2,7 @@
   background-image: url("../assets/hero-bg.jpg");
   background-size: cover;
   background-position: center;
+  background-color: $mine-shaft;
   height: 100vh;
   &__skip {
     clip: rect(0 0 0 0);
