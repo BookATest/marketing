@@ -21,6 +21,16 @@
     font-weight: $font-regular;
     font-size: $font-size-m;
     padding: 0 $padding-m;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: $white;
+      top: 43px;
+      position: relative;
+      z-index: 1;
+    }
     &:after {
       content: "";
       display: block;
@@ -28,6 +38,9 @@
       height: 2px;
       background: $cornflower-blue;
       transition: width 0.3s;
+      transform: background 0.5s;
+      position: relative;
+      z-index: 2;
     }
     &:hover {
       color: $cornflower-blue;
