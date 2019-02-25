@@ -1,6 +1,9 @@
 .bat-content-block {
   padding: $padding-8 0 ($padding-8 + $padding-7) 0;
-  text-align: center;
+  text-align: left;
+  @include tablet {
+    text-align: center;
+  }
   &--grandis {
     background-color: $grandis;
   }
