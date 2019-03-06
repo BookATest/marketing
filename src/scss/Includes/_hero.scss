@@ -43,8 +43,7 @@
   &__scroll-wrapper {
     text-align: center;
     margin-top: auto;
-    bottom: 8px;
-    left: 0;
+    margin-bottom: $margin-m;
     width: 100%;
     position: absolute;
     animation: Float 2s ease-in-out infinite;
@@ -74,6 +73,7 @@
     font-size: $font-size-m;
     font-weight: $font-semi-bold;
     color: $white;
+    padding-bottom: $padding-m;
     margin: 0;
     display: block;
     cursor: pointer;
