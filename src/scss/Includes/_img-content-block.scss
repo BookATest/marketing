@@ -2,6 +2,7 @@
   background-image: url("../assets/img-content-block-bg.jpg");
   background-size: cover;
   background-position: center;
+  background-color: $mine-shaft;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
@@ -11,6 +12,11 @@
   }
   &__img {
     border-radius: 50%;
+  }
+  &__text {
+    font-size: $font-size-l;
+    color: $white;
+    font-family: $font-secondary;
   }
   &__img-wrapper {
     display: flex;

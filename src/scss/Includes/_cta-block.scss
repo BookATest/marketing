@@ -12,12 +12,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: $padding-xl;
+    padding: $padding-5;
+    align-items: center;
+    text-align: center;
+    @include tablet {
+      align-items: flex-start;
+      text-align: unset;
+    }
+  }
+  &__item-content {
+    padding: $padding-2 0 $padding-4 0;
+  }
+  &__item-title {
+    color: $mine-shaft;
+  }
+  &__item-img {
+    padding-bottom: $padding-4;
   }
   &__line {
-    margin: $margin-xl 0;
-    border: 0.5px solid $alto;
+    margin: $margin-7 0;
+    border: 1px solid $alto;
     display: none;
     @include tablet {
       display: block;

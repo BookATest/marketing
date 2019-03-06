@@ -4,6 +4,15 @@
   @include tablet {
     padding-bottom: 0;
   }
+  &__title {
+    padding-bottom: $padding-2;
+    text-align: center;
+    color: $mine-shaft;
+    @include tablet {
+      text-align: unset;
+      padding: $padding-xl $padding-4 $padding-6 $padding-4;
+    }
+  }
   &__img {
     width: 100%;
     &--metro {
@@ -11,6 +20,23 @@
         position: absolute;
       }
     }
+  }
+  &__content {
+    text-align: center;
+    @include tablet {
+      text-align: unset;
+      padding-left: $padding-4;
+    }
+  }
+  &__content-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__content-title {
+    padding-bottom: $padding-3;
+  }
+  &__content-text {
+    padding-bottom: $padding-l;
   }
   &__wrapper-metro {
     position: relative;
@@ -20,7 +46,7 @@
     justify-content: center;
     @include desktop {
       display: block;
-      min-height: 450px;
+      min-height: 400px;
       // transform: scale(1.2);
     }
   }

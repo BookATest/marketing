@@ -1,18 +1,18 @@
 /* Utils */
-@import "./Includes/utils/mixins";
-@import "./Includes/utils/vars";
-@import "./Includes/utils/grid";
-@import "./Includes/utils/reset";
-@import "./Includes/utils/typography";
+@import "./includes/utils/mixins";
+@import "./includes/utils/vars";
+@import "./includes/utils/grid";
+@import "./includes/utils/reset";
+@import "./includes/utils/typography";
 
 /* Components */
-@import "./Includes/hero";
-@import "./Includes/nav";
-@import "./Includes/content-block";
-@import "./Includes/cta-block";
-@import "./Includes/features-block";
-@import "./Includes/icon-block";
-@import "./Includes/img-content-block";
-@import "./Includes/colour-split-block";
-@import "./Includes/supported-by";
-@import "./Includes/footer";
+@import "./includes/hero";
+@import "./includes/nav";
+@import "./includes/content-block";
+@import "./includes/cta-block";
+@import "./includes/features-block";
+@import "./includes/grid-block";
+@import "./includes/img-content-block";
+@import "./includes/colour-split-block";
+@import "./includes/supported-by";
+@import "./includes/footer";

@@ -17,47 +17,39 @@ $font-semi-bold: 600;
 $font-bold: 700;
 
 /* Headings */
-.bat-heading {
-  margin: 0;
-  padding: $padding-l 0;
-  &--xl {
-    font-family: $font-secondary;
-    font-size: $font-size-xl;
-    color: $mine-shaft;
-    font-weight: $font-medium;
-  }
-  &--l {
-    font-family: $font-secondary;
-    font-size: $font-size-l;
-    color: $dove-grey;
-    font-weight: $font-regular;
-  }
-  &--m {
-    font-family: $font-secondary;
-    font-size: $font-size-m;
-    color: $mine-shaft;
-    font-weight: $font-regular;
-  }
+h1 {
+  font-family: $font-secondary;
+  font-size: $font-size-xl;
+  color: $mine-shaft;
+  font-weight: $font-medium;
+}
+h2 {
+  font-family: $font-secondary;
+  font-size: $font-size-l;
+  color: $dove-grey;
+  font-weight: $font-regular;
+}
+h3 {
+  font-family: $font-secondary;
+  font-size: $font-size-m;
+  color: $dove-grey;
+  font-weight: $font-regular;
 }
 
 /* Paragraphs */
-.bat-content {
+p {
   font-family: $font-primary;
   font-size: $font-size-s;
-  margin: 0;
   color: $dove-grey;
-  &--l {
-    font-family: $font-secondary;
-    font-weight: $font-semi-bold;
-    font-size: $font-size-l;
-    color: $white;
-  }
 }
 
 /* Base font size */
 html {
   font-size: 12px;
   @include tablet {
+    font-size: 14px;
+  }
+  @include desktop {
     font-size: 16px;
   }
 }

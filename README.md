@@ -1,25 +1,53 @@
-# Set up locally
+# Book a test marketing site
 
----
+This site is going to be used to promote the book a test service.
 
-Firstly run:
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Firstly run to install all of the dependencies:
+
+```
+npm install
+```
+
+Once this has run you can produce your dist files and watch for file updates by using:
 
 ```
 npm run watch
 ```
 
-This will watch the src files for changes next run:
+As for the local server open a new terminal window run and run:
 
 ```
 npm run hot
 ```
 
-Doing this will set up a hot reloading server.
+Once this is done you can now go to [http://localhost:8080](http://localhost:8080/) to view your project.
 
-For production files run:
+## Deployment
+
+To produce production files use this will output everything into the dist folder
 
 ```
 npm run production
 ```
 
-This project uses laravel mix as the build tool.
+## Built With
+
+- [laravel mix](https://github.com/JeffreyWay/laravel-mix) - The build tool used
+- [jump.js](http://callmecavs.com/jump.js/) - Used for scroll functionality
+- [Post HTML include](https://github.com/posthtml/posthtml-include) - Used for html partials
+
+## Authors
+
+- **[Elliot Morris](https://github.com/elliotrpmorris)**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

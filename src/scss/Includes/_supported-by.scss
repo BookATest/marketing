@@ -8,19 +8,10 @@
     padding: $padding-xl 15px;
   }
   &__heading {
-    font-family: $font-secondary;
-    font-size: $font-size-l;
-    font-weight: $font-semi-bold;
-    color: $mine-shaft;
-    margin: 0;
-    padding: $padding-xl;
+    padding: $padding-xl $padding-4 $padding-2 $padding-4;
   }
   &__content {
-    padding: $padding-xl;
-  }
-  &__logos-wrapper {
-    text-align: center;
-    padding-top: $padding-xl;
+    padding: 0 $padding-4 $padding-6 $padding-4;
   }
   &__logo-wrapper {
     width: 186px;

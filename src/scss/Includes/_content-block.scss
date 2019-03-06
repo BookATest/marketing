@@ -1,21 +1,14 @@
 .bat-content-block {
-  padding: $padding-xl 0 16rem 0;
-  text-align: center;
+  padding: $padding-8 0 ($padding-8 + $padding-7) 0;
+  text-align: left;
+  @include tablet {
+    text-align: center;
+  }
   &--grandis {
     background-color: $grandis;
   }
-}
-
-.bat-section-break {
-  border: 1px solid transparent;
-  &--l {
-    margin: 3rem 0;
-  }
-  &--m {
-    margin: 2rem 0;
-  }
-  &--s {
-    margin: 1rem 0;
+  &__text {
+    padding-bottom: $padding-7;
   }
 }
 
@@ -30,7 +23,7 @@
     color: $white;
     text-align: center;
     text-decoration: none;
-    padding: $padding-m $padding-xl;
+    padding: $padding-l $padding-3;
     margin: 0 auto;
     transition: color 0.6s;
     &:after {
@@ -41,7 +34,8 @@
       background: $white;
       transition: width 0.3s;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       background: $mine-shaft;
       color: $white;
       &:after {
@@ -52,7 +46,8 @@
   &--mail {
     color: $blue-violet;
     transition: color 0.6s;
-    &:hover {
+    &:hover,
+    &:focus {
       color: $mine-shaft;
     }
   }
@@ -62,7 +57,7 @@
     color: $white;
     text-align: center;
     text-decoration: none;
-    padding: $padding-m $padding-xl;
+    padding: $padding-l $padding-3;
     margin: 0 auto;
     transition: color 0.6s;
     &:after {
@@ -73,7 +68,8 @@
       display: block;
       transition: width 0.3s;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       background: $white;
       color: $blue-violet;
       &:after {
