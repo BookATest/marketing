@@ -1,4 +1,4 @@
-# Book a test marketing site
+# Book A Test - Marketing site
 
 This site is going to be used to promote the book a test service.
 
@@ -46,8 +46,11 @@ npm run production
 
 ## Authors
 
-- **[Elliot Morris](https://github.com/elliotrpmorris)**
+- [Ayup Digital](https://ayup.agency/)
+
+See also the list of [contributors](https://github.com/BookATest/frontend/contributors) who
+participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details.
