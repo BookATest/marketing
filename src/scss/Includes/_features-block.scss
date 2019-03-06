@@ -16,8 +16,9 @@
   &__img {
     width: 100%;
     &--metro {
-      @include desktop {
-        position: absolute;
+      @include tablet {
+        margin-left: 15px;
+        margin-bottom: -90px;
       }
     }
   }
@@ -55,6 +56,7 @@
     flex-direction: column-reverse;
     @include small-devices {
       flex-direction: unset;
+      padding-bottom: $padding-5;
     }
   }
 }

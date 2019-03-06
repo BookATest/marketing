@@ -4,6 +4,11 @@
     padding: $padding-7 0 $padding-6 0;
   }
   background-color: $grandis;
+  &__top-row {
+    @include tablet {
+      padding-bottom: $padding-5;
+    }
+  }
   &__content-wrapper {
     text-align: center;
     display: flex;
