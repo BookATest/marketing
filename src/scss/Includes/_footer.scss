@@ -2,6 +2,15 @@
   background-color: $grandis;
   text-align: center;
   padding-bottom: $padding-xl;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 $padding-5;
+    flex-wrap: wrap;
+    @include tablet {
+      flex-wrap: nowrap;
+    }
+  }
   &__text {
     margin: 0;
     font-family: $font-secondary;
