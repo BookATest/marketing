@@ -22,7 +22,7 @@ Once this has run you can produce your dist files and watch for file updates by 
 npm run watch
 ```
 
-As for the local server open a new terminal window run and run:
+As for the local server open a new terminal window and run:
 
 ```
 npm run hot
