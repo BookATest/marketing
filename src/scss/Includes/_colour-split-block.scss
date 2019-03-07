@@ -1,6 +1,4 @@
 .bat-colour-split-block {
-  padding: $padding-m $padding-m $padding-8 $padding-m;
-
   background: linear-gradient(
     to bottom,
     $cornflower-blue 0%,
@@ -9,6 +7,7 @@
     $blue-violet 100%
   );
   @include tablet {
+    padding: $padding-m $padding-m $padding-8 $padding-m;
     background: linear-gradient(
       to right,
       $cornflower-blue 0%,
@@ -20,6 +19,10 @@
 
   &__button-col {
     text-align: center;
+    padding-bottom: $padding-4;
+    @include tablet {
+      padding-bottom: 0;
+    }
   }
   &__heading {
     font-family: $font-secondary;
@@ -33,6 +36,9 @@
     }
     &--second {
       padding-top: $padding-8;
+      @include tablet {
+        padding-top: 0;
+      }
     }
   }
   &__content {
