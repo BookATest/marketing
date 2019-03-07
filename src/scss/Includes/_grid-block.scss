@@ -24,6 +24,8 @@
   &__text {
     margin-right: auto;
     padding-left: $padding-xl;
+    font-family: $font-secondary;
+    font-weight: $font-semi-bold;
     @include tablet {
       margin-right: 0;
       padding-left: 0;
