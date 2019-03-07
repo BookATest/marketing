@@ -1,5 +1,5 @@
 .bat-grid-block {
-  padding: $padding-m 0;
+  padding: $padding-5 0;
   @include tablet {
     padding: $padding-7 0 $padding-6 0;
   }
@@ -12,17 +12,25 @@
   &__content-wrapper {
     text-align: center;
     display: flex;
-    justify-content: flex-start;
+    padding: 0 $padding-5;
+    margin: 0 auto;
     align-items: center;
     text-align: left;
+
     @include tablet {
       justify-content: space-evenly;
       display: block;
       text-align: center;
+      padding: 0;
+    }
+  }
+  &__img {
+    width: 60px;
+    @include tablet {
+      width: 75px;
     }
   }
   &__text {
-    margin-right: auto;
     padding-left: $padding-xl;
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
