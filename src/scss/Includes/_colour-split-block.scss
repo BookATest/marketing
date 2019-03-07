@@ -28,7 +28,7 @@
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
     font-size: 3.25rem;
-    padding: $padding-5 0;
+    padding: $padding-5 $padding-xl;
     color: $white;
     margin: 0;
     @include tablet {
@@ -46,5 +46,9 @@
     font-weight: $font-regular;
     font-size: $font-size-m;
     color: $white;
+    padding: 0 $padding-xl;
+    @include tablet {
+      padding: 0;
+    }
   }
 }
