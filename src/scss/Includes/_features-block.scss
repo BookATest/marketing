@@ -54,9 +54,9 @@
   &__top-row {
     display: flex;
     flex-direction: column-reverse;
+    padding-bottom: $padding-5;
     @include small-devices {
       flex-direction: unset;
-      padding-bottom: $padding-5;
     }
   }
 }

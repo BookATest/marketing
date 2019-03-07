@@ -38,11 +38,21 @@
         </div>
       </div>
       <div class="bat-col bat-feature-block bat-features-block__wrapper-metro">
-        <img
-          class="bat-features-block__img bat-features-block__img--metro"
-          src="/assets/svg/metro.svg"
-          alt="Metro logo"
-        />
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="/assets/svg/metro-full.svg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/assets/svg/metro-crop.svg"
+          />
+          <img
+            class="bat-features-block__img bat-features-block__img--metro"
+            src="/assets/svg/metro-full.svg"
+            alt="Metro logo"
+          />
+        </picture>
       </div>
     </div>
   </div>

@@ -1,13 +1,16 @@
 .bat-footer {
   background-color: $grandis;
   text-align: center;
-  padding-bottom: $padding-xl;
+  @include tablet {
+    padding-bottom: $padding-xl;
+  }
   &__wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0 $padding-5;
     flex-wrap: wrap;
+    padding: $padding-2 0;
     @include tablet {
+      padding: 0 $padding-5;
       flex-wrap: nowrap;
     }
   }
@@ -15,13 +18,14 @@
     margin: 0;
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: $mine-shaft;
     display: block;
-    padding-bottom: $padding-xl;
+    padding: $padding-2 0;
     width: 100%;
     text-align: center;
     @include tablet {
+      font-size: 1.5rem;
       display: inline;
       padding-bottom: 0;
       width: auto;
