@@ -1,6 +1,9 @@
 .bat-supported-by {
   background-color: $grandis;
-  padding: $padding-xl;
+  padding: 0;
+  @include tablet {
+    padding: $padding-xl;
+  }
   &__wrapper {
     background: $wild-sand;
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.16);
@@ -8,10 +11,20 @@
     padding: $padding-xl 15px;
   }
   &__heading {
-    padding: $padding-xl $padding-4 $padding-2 $padding-4;
+    padding: $padding-xl $padding-2 $padding-2 $padding-2;
+    text-align: center;
+    @include tablet {
+      text-align: left;
+      padding: $padding-xl $padding-4 $padding-2 $padding-4;
+    }
   }
   &__content {
-    padding: 0 $padding-4 $padding-6 $padding-4;
+    padding: 0 0 $padding-6 0;
+    text-align: center;
+    @include tablet {
+      text-align: left;
+      padding: 0 $padding-4 $padding-6 $padding-4;
+    }
   }
   &__logo-wrapper {
     width: 186px;

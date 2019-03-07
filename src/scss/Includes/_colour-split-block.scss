@@ -25,9 +25,15 @@
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
     font-size: 3.25rem;
-    padding: $padding-7 0 $padding-5 0;
+    padding: $padding-5 0;
     color: $white;
     margin: 0;
+    @include tablet {
+      padding: $padding-7 0 $padding-5 0;
+    }
+    &--second {
+      padding-top: $padding-8;
+    }
   }
   &__content {
     font-family: $font-primary;
