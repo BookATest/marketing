@@ -1,7 +1,9 @@
 .bat-footer {
   background-color: $grandis;
   text-align: center;
-  padding-bottom: $padding-xl;
+  @include tablet {
+    padding-bottom: $padding-xl;
+  }
   &__wrapper {
     display: flex;
     justify-content: space-between;
