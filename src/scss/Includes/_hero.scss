@@ -13,7 +13,7 @@
   }
   &__wrapper {
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+
     display: flex;
     display: -ms-flexbox;
     position: relative;
@@ -43,9 +43,11 @@
   &__scroll-wrapper {
     text-align: center;
     margin-top: auto;
-    margin-bottom: $margin-m;
+    margin-bottom: $margin-xl;
     width: 100%;
     position: absolute;
+    bottom: 8px;
+    left: 0;
     animation: Float 2s ease-in-out infinite;
     @keyframes Float {
       0%,
@@ -73,7 +75,7 @@
     font-size: $font-size-m;
     font-weight: $font-semi-bold;
     color: $white;
-    padding-bottom: $padding-m;
+    padding-bottom: $padding-l;
     margin: 0;
     display: block;
     cursor: pointer;
