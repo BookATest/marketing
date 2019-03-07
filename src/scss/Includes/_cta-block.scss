@@ -12,12 +12,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: $padding-5;
+    padding: $padding-5 0;
     align-items: center;
     text-align: center;
     @include tablet {
       align-items: flex-start;
       text-align: unset;
+      padding: $padding-5;
     }
   }
   &__item-content {
