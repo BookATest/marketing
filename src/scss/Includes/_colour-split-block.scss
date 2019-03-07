@@ -37,7 +37,7 @@
     &--second {
       padding-top: $padding-8;
       @include tablet {
-        padding-top: 0;
+        padding-top: $padding-7;
       }
     }
   }
