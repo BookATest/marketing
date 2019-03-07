@@ -37,7 +37,7 @@
     padding-bottom: $padding-3;
   }
   &__content-text {
-    padding-bottom: $padding-l;
+    padding-bottom: $padding-5;
   }
   &__wrapper-metro {
     position: relative;
@@ -48,7 +48,6 @@
     @include desktop {
       display: block;
       min-height: 400px;
-      // transform: scale(1.2);
     }
   }
   &__top-row {
