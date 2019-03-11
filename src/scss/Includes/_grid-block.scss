@@ -28,6 +28,7 @@
     width: 60px;
     @include tablet {
       width: 75px;
+      height: 115px;
     }
   }
   &__text {
