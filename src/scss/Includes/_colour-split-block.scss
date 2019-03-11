@@ -6,7 +6,7 @@
     $blue-violet 50%,
     $blue-violet 100%
   );
-  @include tablet {
+  @include desktop {
     padding: $padding-m $padding-m $padding-8 $padding-m;
     background: linear-gradient(
       to right,
@@ -20,23 +20,20 @@
   &__button-col {
     text-align: center;
     padding-bottom: $padding-4;
-    @include tablet {
-      padding-bottom: 0;
-    }
   }
   &__heading {
     font-family: $font-secondary;
     font-weight: $font-semi-bold;
     font-size: 3.25rem;
-    padding: $padding-5 0;
+    padding: $padding-5 $padding-xl;
     color: $white;
     margin: 0;
-    @include tablet {
+    @include desktop {
       padding: $padding-7 0 $padding-5 0;
     }
     &--second {
       padding-top: $padding-8;
-      @include tablet {
+      @include desktop {
         padding-top: $padding-7;
       }
     }
@@ -46,5 +43,9 @@
     font-weight: $font-regular;
     font-size: $font-size-m;
     color: $white;
+    padding: 0 $padding-xl;
+    @include desktop {
+      padding: 0;
+    }
   }
 }

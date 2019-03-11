@@ -21,9 +21,9 @@
   &__img-wrapper {
     display: flex;
     justify-content: center;
-    padding-top: $padding-l;
+    padding-top: $padding-4;
     position: relative;
-    @include tablet {
+    @include desktop {
       justify-content: flex-end;
       padding: 0;
       position: absolute;

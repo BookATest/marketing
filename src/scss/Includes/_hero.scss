@@ -13,7 +13,6 @@
   }
   &__wrapper {
     height: 100vh;
-
     display: flex;
     display: -ms-flexbox;
     position: relative;
@@ -72,7 +71,7 @@
   }
   &__scroll-text {
     font-family: $font-secondary;
-    font-size: $font-size-m;
+    font-size: 2rem;
     font-weight: $font-semi-bold;
     color: $white;
     padding-bottom: $padding-l;

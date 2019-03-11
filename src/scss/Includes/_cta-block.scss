@@ -7,17 +7,22 @@
     position: relative;
     top: -150px;
     margin-bottom: -120px;
+    padding-bottom: $padding-xl;
+    @include tablet {
+      padding-bottom: 0;
+    }
   }
   &__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: $padding-5;
+    padding: $padding-5 0;
     align-items: center;
     text-align: center;
     @include tablet {
       align-items: flex-start;
       text-align: unset;
+      padding: $padding-5;
     }
   }
   &__item-content {
