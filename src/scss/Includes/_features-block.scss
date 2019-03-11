@@ -1,8 +1,8 @@
 .bat-features-block {
   background-color: $wild-sand;
-  padding-bottom: $padding-xl;
+  padding: $padding-3 0 $padding-xl 0;
   @include tablet {
-    padding-bottom: 0;
+    padding: 0;
   }
   &__title {
     padding-bottom: $padding-2;
