@@ -1,5 +1,5 @@
 .bat-content-block {
-  padding: $padding-8 0 ($padding-8 + $padding-7) 0;
+  padding: $padding-8 0 $padding-8 0;
   text-align: left;
   @include tablet {
     text-align: center;
@@ -8,7 +8,10 @@
     background-color: $grandis;
   }
   &__text {
-    padding-bottom: $padding-7;
+    padding: 0 $padding-xl $padding-7;
+    @include tablet {
+      padding-bottom: $padding-7;
+    }
   }
 }
 
